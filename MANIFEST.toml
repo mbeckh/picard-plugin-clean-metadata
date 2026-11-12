@@ -1,0 +1,25 @@
+uuid = "94feac9f-ebc9-4f40-b126-16757fc1060a"
+name = "Clean Metadata"
+description = "Explicitly marks unset metadata as deleted."
+api = ["3.0"]
+authors = ["Michael Beckh"]
+maintainers = ["Michael Beckh"]
+license = "Apache-2.0"
+license_url = "https://www.apache.org/licenses/LICENSE-2.0"
+long_description = """The plugin runs as a track metadata processor and explicitly deletes all metadata not present in the new metadata.
+
+This addresses the issue reported in https://tickets.metabrainz.org/browse/PICARD-1993 related to $copymerge.
+
+A tag is only deleted if:
+* The setting to clear existing tags is enabled.
+* The value is actually stored as a tag.
+* The tag is not calculated.
+* The tag is not configured as a preserved tag.
+* The tag is not from a plugin.
+* The tag is not configured as preserved in the options of this plugin.
+"""
+categories = ["metadata"]
+homepage = "https://github.com/mbeckh/picard-plugin-clean-metadata"
+report_bugs_to = "https://github.com/mbeckh/picard-plugin-clean-metadata/issues"
+min_python_version = "3.14"
+source_locale = "en"
