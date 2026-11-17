@@ -1,0 +1,4 @@
+"ui.clean_metadata.title" = "Clean Metadata"
+"options.preserved_tags" = "Preserved tags"
+"qt.CleanMetadataOptionsPage.window.title"="Clean Metadata"
+"qt.CleanMetadataOptionsPage.metadata_preserved_tags.label"="Do not delete the following tags:"
