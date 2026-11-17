@@ -6,9 +6,11 @@ authors = ["Michael Beckh"]
 maintainers = ["Michael Beckh"]
 license = "Apache-2.0"
 license_url = "https://www.apache.org/licenses/LICENSE-2.0"
-long_description = """The plugin runs as a track metadata processor and explicitly deletes all metadata not present in the new metadata.
+long_description = """The plugin runs as a track metadata processor and
+explicitly deletes all metadata not present in the new metadata.
 
-This addresses the issue reported in https://tickets.metabrainz.org/browse/PICARD-1993 related to $copymerge.
+This addresses the issue reported in
+https://tickets.metabrainz.org/browse/PICARD-1993 related to $copymerge.
 
 A tag is only deleted if:
 * The setting to clear existing tags is enabled.
